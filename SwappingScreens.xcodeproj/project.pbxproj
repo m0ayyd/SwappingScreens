@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		EB3067081EF5CD0C0053368F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3067071EF5CD0C0053368F /* AppDelegate.swift */; };
-		EB30670A1EF5CD0C0053368F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3067091EF5CD0C0053368F /* ViewController.swift */; };
+		EB30670A1EF5CD0C0053368F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3067091EF5CD0C0053368F /* LoginVC.swift */; };
 		EB30670D1EF5CD0C0053368F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB30670B1EF5CD0C0053368F /* Main.storyboard */; };
 		EB30670F1EF5CD0C0053368F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB30670E1EF5CD0C0053368F /* Assets.xcassets */; };
 		EB3067121EF5CD0C0053368F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB3067101EF5CD0C0053368F /* LaunchScreen.storyboard */; };
+		EB30671A1EF5CE630053368F /* MusicListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3067191EF5CE630053368F /* MusicListVC.swift */; };
+		EB30671C1EF5D1A30053368F /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB30671B1EF5D1A30053368F /* PlaySongVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EB3067041EF5CD0C0053368F /* SwappingScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwappingScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB3067071EF5CD0C0053368F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB3067091EF5CD0C0053368F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB3067091EF5CD0C0053368F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		EB30670C1EF5CD0C0053368F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB30670E1EF5CD0C0053368F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB3067111EF5CD0C0053368F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB3067131EF5CD0C0053368F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB3067191EF5CE630053368F /* MusicListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVC.swift; sourceTree = "<group>"; };
+		EB30671B1EF5D1A30053368F /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				EB3067071EF5CD0C0053368F /* AppDelegate.swift */,
-				EB3067091EF5CD0C0053368F /* ViewController.swift */,
+				EB3067091EF5CD0C0053368F /* LoginVC.swift */,
+				EB30671B1EF5D1A30053368F /* PlaySongVC.swift */,
+				EB3067191EF5CE630053368F /* MusicListVC.swift */,
 				EB30670B1EF5CD0C0053368F /* Main.storyboard */,
 				EB30670E1EF5CD0C0053368F /* Assets.xcassets */,
 				EB3067101EF5CD0C0053368F /* LaunchScreen.storyboard */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB30670A1EF5CD0C0053368F /* ViewController.swift in Sources */,
+				EB30671A1EF5CE630053368F /* MusicListVC.swift in Sources */,
+				EB30671C1EF5D1A30053368F /* PlaySongVC.swift in Sources */,
+				EB30670A1EF5CD0C0053368F /* LoginVC.swift in Sources */,
 				EB3067081EF5CD0C0053368F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
